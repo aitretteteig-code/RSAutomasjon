@@ -1,21 +1,29 @@
 # RetailSuite Local Test Management
 
-This folder is the local source of truth for RetailSuite testing.
+This folder holds the local test assets for the RetailSuite test portal.
 
-Xray Test Execution access is not currently available, so tests are managed here instead.
+Xray Test Execution access is not currently available, so test definitions, Playwright specs, and local helper scripts live here instead.
 
 ## Structure
 
 | Path | Purpose |
 | --- | --- |
-| `agents/` | Agent instructions and shared memory |
-| `test-library/` | Test definitions and test sets |
+| `playwright/` | Playwright specs and shared test helpers |
+| `scripts/` | Small PowerShell helpers used by the local Playwright workflow |
+| `templates/` | Reusable Markdown templates for local execution notes |
+| `test-library/` | Test definitions and grouped test sets |
 | `test-library/helsesjekk/` | Health check tests |
 | `test-library/regresjon/` | Regression tests |
-| `executions/` | One execution record per test run |
-| `evidence/` | Screenshots and raw evidence |
-| `reports/` | Summaries and sign-off |
-| `templates/` | Reusable templates |
+
+## Local Generated Content
+
+These paths are still part of the local workflow, but they are generated on the machine and are intentionally not versioned in Git:
+
+- `executions/`
+- `evidence/`
+- `reports/`
+- `runtime/`
+- `.browser-profiles/`
 
 ## Status Model
 

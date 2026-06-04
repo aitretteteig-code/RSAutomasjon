@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T11:08:24.567Z",
+  "generatedAt": "2026-06-04T07:04:33.198Z",
   "sourceRoot": "C:\\Users\\antret\\OneDrive - NorgesGruppen\\Dokumenter\\New project 3",
   "summary": {
     "totalTests": 105,
@@ -47,7 +47,7 @@
       "href": "/test-artifacts/executions/HC-001-20260527-130823-portal-run.md",
       "updatedAt": "2026-05-27T11:08:23.309Z"
     },
-    "staleCount": 102,
+    "staleCount": 105,
     "playwrightReport": {
       "label": "Playwright HTML-rapport",
       "file": "test-artifacts/evidence/playwright-report/index.html",
@@ -185,7 +185,7 @@
       "hasFullAutomation": true,
       "automationType": "hybrid",
       "automationLabel": "Hybrid",
-      "ageDays": 0
+      "ageDays": 7
     },
     {
       "id": "HC-002",
@@ -290,7 +290,7 @@
       "hasFullAutomation": true,
       "automationType": "automatic",
       "automationLabel": "Automatisk",
-      "ageDays": 7
+      "ageDays": 14
     },
     {
       "id": "HC-003",
@@ -363,7 +363,7 @@
       "hasFullAutomation": true,
       "automationType": "hybrid",
       "automationLabel": "Hybrid",
-      "ageDays": 6
+      "ageDays": 14
     },
     {
       "id": "HC-004",
@@ -450,7 +450,7 @@
       "hasFullAutomation": true,
       "automationType": "hybrid",
       "automationLabel": "Hybrid",
-      "ageDays": 7
+      "ageDays": 14
     },
     {
       "id": "HC-006",
@@ -541,7 +541,7 @@
       "hasFullAutomation": true,
       "automationType": "automatic",
       "automationLabel": "Automatisk",
-      "ageDays": 5
+      "ageDays": 12
     },
     {
       "id": "HC-008",
@@ -633,7 +633,7 @@
       "hasFullAutomation": true,
       "automationType": "hybrid",
       "automationLabel": "Hybrid",
-      "ageDays": 7,
+      "ageDays": 15,
       "coveredIds": [
         "HC-008",
         "HC-009",
@@ -718,7 +718,7 @@
       "hasFullAutomation": true,
       "automationType": "hybrid",
       "automationLabel": "Hybrid",
-      "ageDays": 6
+      "ageDays": 14
     },
     {
       "id": "HC-013",
@@ -796,7 +796,7 @@
       "hasFullAutomation": true,
       "automationType": "hybrid",
       "automationLabel": "Hybrid",
-      "ageDays": 6
+      "ageDays": 14
     },
     {
       "id": "HC-014",
@@ -976,7 +976,7 @@
       "hasFullAutomation": true,
       "automationType": "hybrid",
       "automationLabel": "Hybrid",
-      "ageDays": 6
+      "ageDays": 13
     },
     {
       "id": "HC-018",
@@ -1084,7 +1084,7 @@
       "hasFullAutomation": true,
       "automationType": "hybrid",
       "automationLabel": "Hybrid",
-      "ageDays": 6
+      "ageDays": 14
     },
     {
       "id": "HC-019",
@@ -2153,7 +2153,7 @@
       "hasFullAutomation": true,
       "automationType": "automatic",
       "automationLabel": "Automatisk",
-      "ageDays": 20
+      "ageDays": 27
     },
     {
       "id": "REG-032",
@@ -9917,266 +9917,6 @@
     }
   ],
   "specs": [
-    {
-      "id": "BUG-371",
-      "title": "bug-371-article-trace-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-article-trace-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-article-trace-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.248Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-batch-report-details.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-batch-report-details.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-batch-report-details.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.255Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-batch-reports.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-batch-reports.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-batch-reports.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.262Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-batch-search-existing.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-batch-search-existing.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-batch-search-existing.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.269Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-complete-production-with-batch-v2.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-complete-production-with-batch-v2.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-complete-production-with-batch-v2.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.273Z"
-    },
-    {
-      "id": "V-002",
-      "title": "bug-371-complete-production-with-batch-v2.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-complete-production-with-batch-v2.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-complete-production-with-batch-v2.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.273Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-complete-production-with-batch.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-complete-production-with-batch.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-complete-production-with-batch.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.277Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-create-ingredient-batch-with-dates.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-create-ingredient-batch-with-dates.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-create-ingredient-batch-with-dates.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.281Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-create-ingredient-batch.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-create-ingredient-batch.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-create-ingredient-batch.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.286Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-direct-report-details.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-direct-report-details.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-direct-report-details.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.290Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-finish-and-trace-production.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-finish-and-trace-production.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-finish-and-trace-production.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.294Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-finished-batch-trace-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-finished-batch-trace-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-finished-batch-trace-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.298Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-ingredient-details-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-ingredient-details-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-ingredient-details-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.302Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.305Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-new-batch-locator-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-new-batch-locator-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-new-batch-locator-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.308Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-new-batch-modal-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-new-batch-modal-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-new-batch-modal-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.312Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-open-trace-report-popup.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-open-trace-report-popup.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-open-trace-report-popup.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.316Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-open-trace-report.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-open-trace-report.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-open-trace-report.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.319Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-production-fields-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-production-fields-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-production-fields-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.323Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-production-pick-batch-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-production-pick-batch-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-production-pick-batch-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.326Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-report-api-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-report-api-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-report-api-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.330Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-report-search.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-report-search.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-report-search.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.334Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-run-report-execute.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-run-report-execute.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-run-report-execute.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.338Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-run-report-popup.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-run-report-popup.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-run-report-popup.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.341Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-source-search.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-source-search.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-source-search.spec.js",
-      "runKind": "full",
-      "automationType": "automatic",
-      "automationLabel": "Automatisk",
-      "updatedAt": "2026-05-20T09:44:42.345Z"
-    },
-    {
-      "id": "BUG-371",
-      "title": "bug-371-trace-function-inspect.spec.js",
-      "file": "test-artifacts/playwright/tests/bug-371-trace-function-inspect.spec.js",
-      "href": "/test-artifacts/playwright/tests/bug-371-trace-function-inspect.spec.js",
-      "runKind": "support",
-      "automationType": "support",
-      "automationLabel": "Manuell",
-      "updatedAt": "2026-05-20T09:44:42.348Z"
-    },
     {
       "id": "HC-001",
       "title": "hc-001-article-recall-list.spec.js",
