@@ -1,0 +1,26 @@
+{
+  "name": "retailsuite-local-test-runner",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local Playwright runner for RetailSuite test scenarios.",
+  "scripts": {
+    "dashboard:data": "node scripts/generate-dashboard-data.mjs",
+    "report:html": "node scripts/generate-test-report.mjs",
+    "report:pdf": "node scripts/generate-test-report.mjs --pdf",
+    "dev": "npm run dashboard:data && vite --host 127.0.0.1",
+    "build": "npm run dashboard:data && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "pw": "playwright test",
+    "pw:headed": "playwright test --headed",
+    "pw:ui": "playwright test --ui",
+    "rs:login": "playwright test test-artifacts/playwright/tests/rs-login.spec.js --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "lucide-react": "^1.16.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "vite": "^8.0.13"
+  }
+}

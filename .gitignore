@@ -1,0 +1,22 @@
+.tools/
+node_modules/
+dist/
+playwright-report/
+
+# Keep source-controlled test assets, ignore generated/local test artifacts.
+test-artifacts/*
+!test-artifacts/README.md
+!test-artifacts/playwright/
+!test-artifacts/playwright/**
+!test-artifacts/scripts/
+!test-artifacts/scripts/**
+!test-artifacts/templates/
+!test-artifacts/templates/**
+!test-artifacts/test-library/
+!test-artifacts/test-library/**
+
+test-artifacts/playwright/.auth/
+test-artifacts/.browser-profiles/
+test-artifacts/evidence/
+test-artifacts/*-profile/
+*.log
